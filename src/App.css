@@ -1,0 +1,78 @@
+body{
+  background-image: url('./cool-background.png');
+}
+
+h1{
+  background-color: blueviolet;
+  color : whitesmoke;
+  text-align: center;
+  box-shadow: 5px 5px 10px bisque;
+}
+
+.buttons{
+  background: white;
+  color : #111;
+  font-weight: 800;
+  font-family: sans-serif;
+  padding : 10px;
+  cursor : pointer;
+  display: flex;
+  width : 400px;
+  align-items: center;
+  justify-content: center;
+  margin : 10px auto;
+  box-shadow:5px 5px 10px grey;
+  border-radius : 10px;
+}
+
+.button{
+  background: white;
+  color : #111;
+  font-weight: 800;
+  font-family: sans-serif;
+  padding : 10px;
+  cursor : pointer;
+  display: flex;
+  width : 400px;
+  align-items: center;
+  justify-content: center;
+  margin : 10px auto;
+  border-radius: 10px;
+  
+}
+
+
+.buttons:hover , .button:hover {
+  transform: scale(1.1);
+  
+
+}
+
+
+.button-small{
+  background: white;
+  color : #111;
+  font-weight: 800;
+  font-family: sans-serif;
+  padding : 10px;
+  cursor : pointer;
+  display: flex;
+  width : max-content;
+  align-items: center;
+  justify-content: center;
+  margin : 10px auto;
+  border-radius: 10px;
+}
+
+.button-small li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.li-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
